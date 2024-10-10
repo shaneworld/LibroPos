@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: LibroPos
+  datasource:
+    url: jdbc:mysql://localhost:3306/libropos
+    username: admin
+    password: 123456
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: "123456"
+      lettuce:
+        pool:
+          max-active: 8 # 最大连接数
+          max-idle: 8 # 最大空闲连接
+          min-idle: 0 # 最小空闲连接
+          max-wait: 1000ms # 连接等待时间

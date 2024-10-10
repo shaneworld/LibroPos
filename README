@@ -1,18 +1,23 @@
-LibroPos
-========
+============
+| LibroPos |
+============
 
 WHY I CREATE THIS PROJECT?
+==========================
 
 There is a bookstore next to my school. I had a very bad experience using the 
 backend POS system of this bookstore, so I wanted to write a clear and easy-to-use 
 backend POS system based on Java and SpringBoot.
 
 WHAT HAVE I ACCOMPLISHED?
+=========================
 
 o Login page using thymeleaf.
-o User-related tables in [MariaDB](https://wiki.archlinux.org/title/MariaDB).
+o User-related tables in MariaDB.
+o JWT utils.
 
 WHAT AM I CURRENTLY IMPLEMENTING?
+=================================
 
 o JWT Token Authentication.
 o MD5 password encryption.
